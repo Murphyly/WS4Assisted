@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#compoem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#compoem">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tem_elemento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#define -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#define">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_definida"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_acessada -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_acessada"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_caracteristica_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_caracteristica_de">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#portador_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_definida -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_definida">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_utilizada_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#e_utilizada_por">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#utiliza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#esta_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#esta_em">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#influencia_uso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#influencia_uso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#portador_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#portador_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tem_audiodescricao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tem_audiodescricao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tem_elemento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tem_elemento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#utiliza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#utiliza">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#altura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#altura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Botao"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#avaliacao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#avaliacao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#descricao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#descricao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#duracao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#duracao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#eAudioDescrito -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#eAudioDescrito">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Audio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Video"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#largura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#largura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Botao"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#nome_pessoa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#nome_pessoa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tamanho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#tamanho">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#volume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#volume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Som"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Ambiente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Ambiente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Anotacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Anotacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Texto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Aplicacao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#AreaDeTexto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#AreaDeTexto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#AudioDescricao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#AudioDescricao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Audio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Automatica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Automatica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#BaixaVisao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#BaixaVisao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Botao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Botao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#BotaoDeRadio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#BotaoDeRadio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Brilho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Brilho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#CaixaDeEntrada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#CaixaDeEntrada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cegueira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cegueira">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#CheckBox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#CheckBox">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contraste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contraste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Daltonismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Daltonismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Deficiencia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Dispositivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Dispositivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Contexto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Estilo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Estilo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Hipertexto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Hipertexto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Imagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Imagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Intensidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Intensidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Cor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Legenda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Legenda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Texto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Manual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Manual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Peso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Peso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Pessoa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Rotulos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Rotulos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Formularios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#SemiAutomatica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#SemiAutomatica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Adaptacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Som -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Som">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Dispositivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Tamanho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Tamanho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Teclado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Teclado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Dispositivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Texto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Texto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Tipo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Tipo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Variacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Variacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Fonte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Video">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isys/ontologies/2018/0/untitled-ontology-3#Midia"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
